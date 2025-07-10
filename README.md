@@ -49,3 +49,10 @@ git clone https://github.com/mahmoudyasser32/Skidpad-Path-Planning---Control-for
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
+
+## ▶️ Quick Start / Test the System
+
+To test the full simulation (path planning, vehicle model, and control), use the following ROS 2 launch command:
+
+```bash
+ros2 launch kinematic_bicycle kinematic_bicycle.launch.py
