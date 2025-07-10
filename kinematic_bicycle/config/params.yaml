@@ -1,0 +1,9 @@
+SkidPadPathPlannerNode:
+  ros__parameters:
+    pathTopic: "/path"
+    perception:
+      smornn:
+        min_dist_neighbor: 1.0
+        frame_id: "kit"
+        detected_markers: "/perception/smornn/detected_markers"
+        detected: "perception/smornn/detected"
